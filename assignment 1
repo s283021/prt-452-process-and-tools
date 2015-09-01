@@ -4,7 +4,7 @@
 class complex
 {
 float real;
-float img;
+
 public:
 complex()
 {
@@ -12,7 +12,7 @@ real = 0; img = 0;
 }
 complex(float a,float b)
 {
-real =a ; img = b;
+real =a ; img = c;
 }
 complex operator -(complex );
 void disp();

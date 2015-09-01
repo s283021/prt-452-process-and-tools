@@ -5,16 +5,14 @@ class complex
 {
 float real;
 
-public:
-complex()
+public:   complex()
 {
 real = 0; img = 0;
 }   
 complex(float a,float b)   }
 real =a ; img = c;
 }
-complex operator -(complex );
-void disp();
+complex operator -(complex ); void disp();
 };
 // Fn.for overloading of - operator for complex arithmetic
 complex complex::operator-(complex a)
